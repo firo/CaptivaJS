@@ -1,0 +1,19 @@
+{
+  "name": "CaptivaJS",
+  "version": "0.2",
+  "description": "Node.js module for EMC Captiva 7.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://firione@bitbucket.org/firione/captiva.js.git"
+  },
+  "author": "Ferruccio Irionè",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/firione/captiva.js#readme",
+  "dependencies": {
+    "unirest": "^0.4.2"
+  }
+}

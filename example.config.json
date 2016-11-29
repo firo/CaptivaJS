@@ -1,0 +1,31 @@
+{
+  "captiva": {
+    "username": "",
+    "password": "",
+    "application_id": "",
+    "license_id": "",
+    "server": {
+      "url": "",
+      "protocol": "http://",
+      "port": ":80",
+      "url": {
+        "default": "/cp-rest",
+        "session": "/cp-rest/session",
+        "upload":  "/cp-rest/session/files",
+        "convert": "/cp-rest/session/services/convertimages",
+        "enhance": "/cp-rest/session/services/processimage",
+        "extract": "/cp-rest/session/services/classifyextractpage"
+      }
+    },
+    "profile": {
+      "recognition_project": "test",
+      "image_conversion": "test",
+      "image_processing": "test"
+    },
+    "media_type": {
+      "json": "application/json",
+      "octet": "application/octet-stream",
+      "base64":"application/vnd.emc.captiva+json"
+    }
+  }
+}
